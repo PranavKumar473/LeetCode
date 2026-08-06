@@ -8,7 +8,7 @@ class Solution {
        int R = bookings[i][1]-1; // flight 2 ---> made index 1
        int seats = bookings[i][2]; // already index 2 
 
-       answer[L] =  answer[L] + seats;
+       answer[L] =  answer[L] + seats;  // add seats in flight1
 
        if((R+1)<n){
        answer[R+1] = answer[R+1] - seats;
