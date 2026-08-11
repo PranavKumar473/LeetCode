@@ -1,3 +1,4 @@
+//Kadanes Algorithm  T.C: O(N), S.C: O(1)
 class Solution {
     public int maxSubArray(int[] arr) {
         int sum = 0;
