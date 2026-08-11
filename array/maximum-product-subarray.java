@@ -4,7 +4,7 @@ class Solution {
         int answer = Integer.MIN_VALUE;
         
         for(int i=0;i<arr.length;i++){
-        if(product > 0 || product<0 ){
+        if(product > 0 || product<0 && arr[i]<0){
         product = product*arr[i];
         }
         else{
