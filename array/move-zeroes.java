@@ -7,6 +7,9 @@ class Solution {
             break;
         }
        }
+       if(j==-1){
+        return;
+       }
        for(int i=j+1;i<arr.length;i++){
         if(arr[i]!=0){
             int temp = arr[i];
